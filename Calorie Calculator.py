@@ -1,0 +1,6 @@
+Weight = int(input("What is your body weight in kg: "))
+Height = int(input("What is your height in cm: "))
+Age = int(input("What is your age: "))
+# BMR = 88.362 + (13.397 x weight in kg) + (4.799 x height in cm) – (5.677 x age in years)
+BMR = 88.362 + (13.397 * Weight) + (4.799 * Height) - (5.677 * Age)
+print(BMR)
